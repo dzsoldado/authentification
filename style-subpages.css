@@ -15,10 +15,10 @@
   min-height: 100vh;
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
   gap: 4rem;
+  align-items: center;
+  justify-content: center;
   padding: 4rem 0;
   background-color: #0048E8;
   color: #fff;
@@ -56,6 +56,11 @@ a, a:link,  a:hover, a:visited, a:active{
   text-decoration: none;
   color: #fff;
   text-align: left;
+}
+
+p{
+  direction: rtl;
+  text-align: right;
 }
 
 @media only screen and (min-width: 768px) {

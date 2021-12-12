@@ -16,6 +16,10 @@ a, a:link,  a:hover, a:visited, a:active{
   color: #152039;
 }
 
+.ar{
+  direction: rtl;
+}
+
 .title {
   display: flex;
   flex-direction: column;
@@ -43,10 +47,14 @@ a, a:link,  a:hover, a:visited, a:active{
   color: #fff;
 }
 
+.title, .about, .timeline, .footer{
+  max-width: 900px;
+}  
+
+
 .timeline {
   width: 95%;
   height: auto;
-  max-width: 900px;
   margin: 0 auto;
   position: relative;
 }
@@ -70,8 +78,13 @@ a, a:link,  a:hover, a:visited, a:active{
 .timeline ul li:last-child {
   margin-bottom: 0;
 }
+
 .timeline-content h2 {
   text-align: center;
+}
+
+.footer a, .footer a:visited{
+  color: #fff;
 }
 
 
@@ -79,6 +92,10 @@ a, a:link,  a:hover, a:visited, a:active{
 
   :root{
     font-size: 16px;
+  }
+
+  .timeline {
+    width: 90%;
   }
 
   .timeline:before {
